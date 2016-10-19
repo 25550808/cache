@@ -2,6 +2,7 @@
 /**
  * 文件cache的实现模式
  */
+require 'cache_abstract.class.php';
 class cache_file extends cache_abstract {
 	
 	/**

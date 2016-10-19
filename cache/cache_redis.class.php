@@ -2,6 +2,7 @@
 /**
  * redis的实现模式
  */
+require 'cache_abstract.class.php';
 class cache_redis extends cache_abstract {
 	/**
 	 * 定义memcache的实例化句柄

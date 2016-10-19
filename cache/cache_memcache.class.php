@@ -1,8 +1,8 @@
 <?php
 /**
  * 分布式memcache的实现模式
- * @author zdy
  */
+require 'cache_abstract.class.php';
 class cache_memcache extends cache_abstract {
 	/**
 	 * 定义memcache的实例化句柄
